@@ -1,0 +1,15 @@
+{
+  "name": "Zac App",
+  "short_name": "Zapp",
+  "start_url": "/", 
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

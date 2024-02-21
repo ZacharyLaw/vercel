@@ -9,5 +9,11 @@
    console.log(src)
    console.log('manifest')
    document.getElementById("f").src = src
+   if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/vercel/sw.js',
+          {scope: '/vercel/'}
+        )
+      }
   </script>
 </body>

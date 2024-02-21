@@ -3,6 +3,7 @@
   <script>
    path=window.location.pathname=='/'?'':window.location.pathname;
    url="https://zacharylaw.vercel.app"
+   path=!path.startsWith('/vercel')?path:path.substring(7)
    src=url + path + window.location.search
    console.log(src)
    document.getElementById("f").src = src

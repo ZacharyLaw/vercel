@@ -7,6 +7,7 @@
    path=!path.startsWith('/vercel')?path:path.substring(7)
    src=url + path + window.location.search
    console.log(src)
+   console.log('manifest')
    document.getElementById("f").src = src
   </script>
 </body>
